@@ -1,0 +1,7 @@
+<h1>Mostrando todos los Personajes</h1>
+<ol>
+    <% @character.each do |t| %>
+        <li>Nombre: <%= t.name %> - Locacion: <%= t.location %> - Casa: <%= t.house %></li>
+    <% end %>
+
+</ol>
